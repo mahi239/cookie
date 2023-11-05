@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Delicious</title>
 
-    <!-- Google Fonts -->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
 
-    <!-- Custom Styling -->
+    
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -58,17 +58,10 @@ But it's not just about the taste, we also strive to empower your family and com
             type="email"
             name="email"
             id="email"
-            placeholder="email@product.me"
+            placeholder="email@gmail.me"
             required
           />
-           <label for="M-number">Number</label>
-          <input
-            type="number"
-            name="M-number"
-            id="M-number"
-            placeholder="9945678321"
-            required
-          />
+           
 
           <label for="message">Message</label>
           <textarea
