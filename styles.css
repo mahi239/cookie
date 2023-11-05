@@ -1,4 +1,4 @@
-/* --- Base Resets: Start --- */
+
 * {
     padding: 0;
     margin: 0;
@@ -6,21 +6,20 @@
   }
   
   html {
-    font-size: 62.5%; /* makes default font 10px */
+    font-size: 62.5%; 
   }
-  /* --- Base Resets: End --- */
   
   /* --- Typography: Start --- */
   body {
     color: #0a0a0a;
-    background-color: #eaeaea;
-    font-family: "Jost", sans-serif;
+    background-color: #b97878;
+    font-family: "mono", sans-serif;
   }
   
   input,
   textarea,
   button {
-    font-family: "Jost", sans-serif;
+    font-family: "mono", sans-serif;
   }
   
   h1 {
@@ -51,7 +50,7 @@
     font-weight: bold;
     cursor: pointer;
     /* Gradient */
-    background: -webkit-linear-gradient(red, orange);
+    background: -webkit-linear-gradient(rgb(0, 47, 255), rgb(183, 218, 178));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -91,7 +90,7 @@
     color: #eaeaea;
     height: 80vh;
     background-image: linear-gradient(rgb(83, 59, 22), transparent),
-      url(background.jpeg);
+      url(homefood.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
