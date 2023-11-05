@@ -1,0 +1,148 @@
+/* --- Base Resets: Start --- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%; /* makes default font 10px */
+  }
+  /* --- Base Resets: End --- */
+  
+  /* --- Typography: Start --- */
+  body {
+    color: #0a0a0a;
+    background-color: #eaeaea;
+    font-family: "Jost", sans-serif;
+  }
+  
+  input,
+  textarea,
+  button {
+    font-family: "Jost", sans-serif;
+  }
+  
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 3.8rem;
+  }
+  
+  p,
+  li,
+  form {
+    font-size: 2rem;
+  }
+  /* --- Typography: End --- */
+  
+  /* --- Header: Start --- */
+  header {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Positioning Using Float: Start */
+  header > .logo {
+    float: left;
+    font-weight: bold;
+    cursor: pointer;
+    /* Gradient */
+    background: -webkit-linear-gradient(red, orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  header > nav {
+    float: right;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  header > nav > ul > li {
+    float: left;
+    padding-right: 1rem;
+  }
+  /* Positioning Using Float: Start */
+  
+  header > nav > ul {
+    list-style: none;
+  }
+  
+  header > nav > ul > li > a {
+    text-decoration: none;
+    color: #0a0a0a;
+  }
+  /* --- Header: End --- */
+  
+  /* --- Main: Start --- */
+  main {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  main > .hero {
+    color: #eaeaea;
+    height: 80vh;
+    background-image: linear-gradient(rgb(83, 59, 22), transparent),
+      url(background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  main > .hero > h1 {
+    padding-top: 20vh;
+    text-shadow: 0.1rem 0.1rem 0.3rem #0a0a0a; /* x/y/blur/color */
+  }
+  
+  main > .hero > p {
+    margin: 1.5rem 0 5rem 0; /* t/r/b/l */
+  }
+  
+  button {
+    padding: 1rem 2rem;
+    background-color: chartreuse;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer; /* cursor: hand */
+  }
+  
+  /* --- Main: End --- */
+  
+  /* --- Form: Start --- */
+  main > .contact > h2 {
+    margin-top: 2rem;
+  }
+  
+  form input,
+  form label,
+  form textarea {
+    display: block;
+    margin: 0 auto;
+    width: 50vw; /* equal width */
+    margin: 1rem auto 1rem;
+  }
+  
+  main > .contact > form > button {
+    width: 50vw;
+  }
+  /* --- Form: End --- */
+  
+  /* --- Footer: Start --- */
+  footer {
+    margin-top: 8rem;
+    padding: 1rem;
+    background-color: gray;
+    color: #eaeaea;
+    text-align: center;
+    text-transform: lowercase;
+  }
+  /* --- Footer: End --- */
