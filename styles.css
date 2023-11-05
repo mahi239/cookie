@@ -16,7 +16,7 @@
     font-family: "mono", sans-serif;
   }
   
-  input,
+  /*input,
   textarea,
   button {
     font-family: "mono", sans-serif;
@@ -38,6 +38,7 @@
   /* --- Typography: End --- */
   
   /* --- Header: Start --- */
+  /*
   header {
     max-width: 80vw;
     margin: 0 auto;
@@ -45,11 +46,13 @@
   }
   
   /* Positioning Using Float: Start */
+  /*
   header > .logo {
     float: left;
     font-weight: bold;
     cursor: pointer;
     /* Gradient */
+    /*
     background: -webkit-linear-gradient(rgb(0, 47, 255), rgb(183, 218, 178));
     -webkit-background-clip: text;
     background-clip: text;
@@ -69,7 +72,7 @@
     padding-right: 1rem;
   }
   /* Positioning Using Float: Start */
-  
+  /*
   header > nav > ul {
     list-style: none;
   }
@@ -81,6 +84,7 @@
   /* --- Header: End --- */
   
   /* --- Main: Start --- */
+  /*
   main {
     margin: 0 auto;
     text-align: center;
@@ -100,11 +104,13 @@
   main > .hero > h1 {
     padding-top: 20vh;
     text-shadow: 0.1rem 0.1rem 0.3rem #0a0a0a; /* x/y/blur/color */
+    /*
   }
+
   
   main > .hero > p {
     margin: 1.5rem 0 5rem 0; /* t/r/b/l */
-  }
+    /*  }
   
   button {
     padding: 1rem 2rem;
@@ -112,11 +118,13 @@
     border-radius: 1rem;
     border: none;
     cursor: pointer; /* cursor: hand */
+    /*
   }
   
   /* --- Main: End --- */
   
   /* --- Form: Start --- */
+  /*
   main > .contact > h2 {
     margin-top: 2rem;
   }
@@ -127,6 +135,7 @@
     display: block;
     margin: 0 auto;
     width: 50vw; /* equal width */
+    /*
     margin: 1rem auto 1rem;
   }
   
@@ -136,6 +145,7 @@
   /* --- Form: End --- */
   
   /* --- Footer: Start --- */
+  /*
   footer {
     margin-top: 8rem;
     padding: 1rem;
@@ -143,5 +153,5 @@
     color: #eaeaea;
     text-align: center;
     text-transform: lowercase;
-  }
+  } 
   /* --- Footer: End --- */
